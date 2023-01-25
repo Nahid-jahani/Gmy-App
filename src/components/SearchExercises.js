@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Box, Button, Stack, TextField, Typography } from "@mui/material";
-import { exerciseOptions, fetchDate } from "../utils/fetchData";
+import { exerciseOptions, fetchData } from "../utils/fetchData";
 import HorizontalScollbar from "./HorizontalScollbar";
 //import { bgcolor, textTransform } from "@mui/system";
 
@@ -10,7 +10,7 @@ const SearchExercises = () => {
   const [bodyPart, setBodyPart] = useState([]);
   useEffect(() => {
     const fetchExerciseData = async () => {
-      const bodyPartsData = await fetchDate(
+      const bodyPartsData = await fetchData(
         "https://exercisedb.p.rapidapi.com/exercises/bodyPartList",
         exerciseOptions
       );
@@ -22,7 +22,7 @@ const SearchExercises = () => {
 
   const handleSearch = async () => {
     if (search) {
-      const exerciseDate = await fetchDate(
+      const exerciseDate = await fetchData(
         "https://exercisedb.p.rapidapi.com/exercises",
         exerciseOptions
       );
