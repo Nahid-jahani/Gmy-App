@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Nahid-jahani/Gmy-App.git/static/css/main.5f4e8eaf.css",
-    "main.js": "/Nahid-jahani/Gmy-App.git/static/js/main.c7e06938.js",
-    "static/media/banner.png": "/Nahid-jahani/Gmy-App.git/static/media/banner.5209b5e92a864ca0c615.png",
-    "index.html": "/Nahid-jahani/Gmy-App.git/index.html",
-    "main.5f4e8eaf.css.map": "/Nahid-jahani/Gmy-App.git/static/css/main.5f4e8eaf.css.map",
-    "main.c7e06938.js.map": "/Nahid-jahani/Gmy-App.git/static/js/main.c7e06938.js.map"
+    "main.css": "/Gmy-App/static/css/main.5f4e8eaf.css",
+    "main.js": "/Gmy-App/static/js/main.d1276e32.js",
+    "static/media/banner.png": "/Gmy-App/static/media/banner.5209b5e92a864ca0c615.png",
+    "index.html": "/Gmy-App/index.html",
+    "main.5f4e8eaf.css.map": "/Gmy-App/static/css/main.5f4e8eaf.css.map",
+    "main.d1276e32.js.map": "/Gmy-App/static/js/main.d1276e32.js.map"
   },
   "entrypoints": [
     "static/css/main.5f4e8eaf.css",
-    "static/js/main.c7e06938.js"
+    "static/js/main.d1276e32.js"
   ]
 }
